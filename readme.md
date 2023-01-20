@@ -15,7 +15,7 @@ MASQUE takes a two-stage approach:
 - In the **offline** stage, MASQUE denormalizes the data using existing JOIN protocols if necessary and obtain a flat table in secret-shared form; and then the most improtantly, prepares a batch of samples (uniform sampling without replacement and stratified sampling with specific group-by key $k$);
 - In the **online** stage, MASQUE takes the query from the client and constructs a query evaluation circuit with a pre-generated sample, also injects DP noises on query result with a circuit if necessary, and then evaluates the circuit and sents the shares to the client for result reconstruction.
 
-![image-20230120120234134](/Users/luoqiyao/Library/Application Support/typora-user-images/image-20230120120234134.png)
+![overview](sysoverview.png)
 
 
 
