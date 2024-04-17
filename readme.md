@@ -67,3 +67,5 @@ MASQUE also evaluates the query evaluation circuit in online stage. There are 4 
 ./online -a [IP address] -p [Port ID] -r [role "0/1"]
 ```
 
+
+Currently, the system is for demo use. The full-fledge protection MPC+DP system is under development. We will equip MASQUE with a SQL parser and efficient join algorithms.
